@@ -15,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 public class Comment extends BaseEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //
     private Long Id;
 
     @Column(length = 40)
